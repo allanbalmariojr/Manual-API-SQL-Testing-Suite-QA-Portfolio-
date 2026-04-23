@@ -1,18 +1,20 @@
 # Sprint 7 – Python Automation Foundation (Urban Routes)
 
 ## Overview
-This sprint focused on setting up the foundation for UI test automation using Python and Selenium for the Urban Routes application. The goal was to prepare a structured project that will be extended in Sprint 8 to fully automate end-to-end test scenarios.
+This sprint focused on setting up the foundation for UI test automation using Python and Selenium for the Urban Routes application.
 
-At this stage, no test automation logic was implemented. Instead, the project establishes the framework, test data, and helper utilities required for future automation.
+The goal was to prepare a structured and scalable automation framework that will be implemented in Sprint 8, where full end-to-end test automation will be developed.
+
+At this stage, no UI automation logic was implemented. The project focuses on environment setup, test structure, and reusable components.
 
 ---
 
 ## Project Objective
-- Set up Python test automation structure
+- Set up Python + Selenium automation framework
 - Configure virtual environment and dependencies
-- Define reusable test data
-- Prepare test class structure and placeholders for future Selenium tests
-- Verify connectivity to the Urban Routes server
+- Define reusable test data structure
+- Create test class structure with placeholders
+- Validate Urban Routes server connectivity
 
 ---
 
@@ -21,14 +23,14 @@ QA-USA_Python_Automation/
 │
 ├── helpers.py # Utility functions (provided, not modified)
 ├── data.py # Test data constants
-├── main.py # Test class structure with placeholder methods
+├── main.py # Test class with placeholder methods
 ├── requirements.txt # Project dependencies
-├── .venv/ # Virtual environment (not pushed to GitHub)
 ├── .gitignore
+├── .venv/ # Virtual environment (excluded from GitHub)
 
----
+--- 
 
-## Setup Steps Completed
+## Setup Summary
 
 ### 1. Repository Setup
 - Cloned GitHub repository: `QA-USA_Python_Automation`
@@ -40,98 +42,95 @@ QA-USA_Python_Automation/
 - Activated environment for development
 
 ### 3. Git Configuration
-- Added `.gitignore` file
-- Excluded:
-  - `.venv/`
-  - `.idea/`
+Excluded from repository via `.gitignore`:
+- `.venv/`
+- `.idea/`
 
 ---
 
-## Files Added / Configured
+## Files Overview
 
 ### helpers.py
-- Provided by course
-- Contains:
-  - `retrieve_phone_code(driver)`
-  - `is_url_reachable(url)`
-- Used for server validation and future test support
+Provided utility file (not modified):
+- `retrieve_phone_code(driver)`
+- `is_url_reachable(url)`
+
+Used for:
+- Server validation
+- Supporting future Selenium test logic
 
 ---
 
 ### data.py
-Contains reusable test constants:
+Centralized test data file containing constants:
+- URBAN_ROUTES_URL
+- ADDRESS_FROM
+- ADDRESS_TO
+- PHONE_NUMBER
+- CARD_NUMBER
+- CARD_CODE
+- MESSAGE_FOR_DRIVER
 
-- `URBAN_ROUTES_URL`
-- `ADDRESS_FROM`
-- `ADDRESS_TO`
-- `PHONE_NUMBER`
-- `CARD_NUMBER`
-- `CARD_CODE`
-- `MESSAGE_FOR_DRIVER`
-
-Purpose: centralizes test data for maintainability and reuse.
+Purpose: Improve maintainability and reduce hardcoding in tests.
 
 ---
 
 ### main.py
-- Contains `TestUrbanRoutes` class
-- Includes 8 placeholder test methods:
-  - `test_set_route`
-  - `test_select_plan`
-  - `test_fill_phone_number`
-  - `test_fill_card`
-  - `test_comment_for_driver`
-  - `test_order_blanket_and_handkerchiefs`
-  - `test_order_2_ice_creams`
-  - `test_car_search_model_appears`
+Contains test structure for future automation:
 
-Each method currently:
-- Contains a placeholder comment (`# Add in S8`)
-- Includes a `pass` statement
+- `TestUrbanRoutes` class
+- 8 placeholder test methods:
+  - test_set_route
+  - test_select_plan
+  - test_fill_phone_number
+  - test_fill_card
+  - test_comment_for_driver
+  - test_order_blanket_and_handkerchiefs
+  - test_order_2_ice_creams
+  - test_car_search_model_appears
 
-### Additional setup:
-- `setup_class()` method added
-- Server connectivity check implemented using `is_url_reachable()`
+Each method currently contains:
+- Placeholder comment (`# Add in S8`)
+- `pass` statement
+
+### Setup Method
+- `setup_class()` added
+- Checks Urban Routes server availability using `is_url_reachable()`
 
 ---
 
 ## Server Validation
-Before running tests, the system checks if the Urban Routes server is reachable:
+Before test execution, the system checks server status:
 
 - If reachable:
-  - Prints: `Connected to the Urban Routes server`
+  `Connected to the Urban Routes server`
 - If not reachable:
-  - Prints: `Cannot connect to Urban Routes. Check the server is on and still running`
+  `Cannot connect to Urban Routes. Check the server is on and still running`
 
 ---
 
 ## requirements.txt
-Contains Python dependencies required for automation:
-
+Defines project dependencies:
 - Selenium
 - Pytest
-- Any supporting libraries required by the course environment
+- Supporting test framework libraries
 
 ---
 
 ## Outcome
-This sprint successfully establishes the automation framework for Urban Routes testing.
+This sprint successfully establishes the foundation for automated UI testing.
 
-### Achievements:
-- Project structure created and organized
+### Key Achievements
+- Automation project structure created
 - Virtual environment configured
 - Test data centralized
 - Test class skeleton implemented
-- Server connectivity validation added
-
-### Next Step (Sprint 8):
-- Implement full Selenium automation logic
-- Replace placeholders with real UI interactions
-- Execute end-to-end automated test scenarios
+- Server validation logic added
 
 ---
 
-## Notes
-- No actual test execution is performed in this sprint
-- All methods are intentionally left as placeholders for Sprint 8
-- Focus is on structure, scalability, and preparation for automation
+## Next Step (Sprint 8)
+- Implement Selenium-based UI automation
+- Replace placeholders with real test logic
+- Execute end-to-end automated test scenarios
+```

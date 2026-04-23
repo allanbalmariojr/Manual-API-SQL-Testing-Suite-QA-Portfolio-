@@ -26,14 +26,14 @@ Testing was performed against the provided requirements and UI specifications (F
 
 ## Test Results (Summary View)
 
-| # | Description | Status | Bug Report |
-|---|------------|--------|-------------|
-| 1 | Map does not display pickup points correctly | FAILED | S6P-5 |
-| 13 | Total amount includes dishes and delivery cost | FAILED | S6P-1 |
-| 19 | Cooking timer is displayed correctly | FAILED | S6P-2 |
-| 22 | Item quantity persists after scrolling | FAILED | S6P-3 |
-| 24 | Pickup point is shown correctly on map | FAILED | S6P-6 |
-| 30 | Dish details screen has no text overlap | FAILED | S6P-4 |
+| # | Description | Status |
+|---|------------|--------|
+| 1 | Map does not display pickup points correctly | FAILED |
+| 13 | Total amount includes dishes and delivery cost | FAILED |
+| 19 | Cooking timer is displayed correctly | FAILED |
+| 22 | Item quantity persists after scrolling | FAILED |
+| 24 | Pickup point is shown correctly on map | FAILED |
+| 30 | Dish details screen has no text overlap | FAILED |
 
 ---
 

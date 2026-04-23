@@ -1,24 +1,39 @@
-# Sprint 6 – Urban Lunch Mobile Testing
+# Sprint 6 – Mobile Testing (Urban Lunch App)
 
 ## Overview
-This sprint focused on manual testing of the Urban Lunch Android application using an emulator. The goal was to validate core user flows including ordering, pickup selection, and order tracking.
+This sprint focused on manual testing of the Urban Lunch Android application using an emulator environment. The goal was to validate core user flows including ordering, pickup point selection, and order tracking.
+
+## Testing Environment
+- Android Studio
+- Pixel 5 Emulator (Android Virtual Device)
+- Android mobile application (Urban Lunch)
 
 ## Scope
-- Pickup point selection and map behavior
-- Restaurant and dish selection flow
-- Order confirmation and pricing logic
-- Order tracking screen functionality
-- Error handling and edge cases
+- Pickup point selection on map
+- Restaurant selection
+- Dish ordering flow
+- Order confirmation and tracking screens
+- Error handling scenarios
 
 ## Testing Approach
-- Manual exploratory testing using Pixel 5 emulator
-- Execution based on provided requirements and UI designs (Figma)
-- Positive, negative, and usability test coverage
+- Manual functional testing
+- UI validation
+- Positive and negative test cases
+- Exploratory testing on key flows
 
 ## Artifacts
-- Test checklist with 30 test cases (PASS/FAIL)
-- Defect documentation within checklist
-- No external Jira dependency (self-contained reporting)
+- Test checklist (30 test cases)
+- Test execution results (PASS/FAIL)
+- Bug reports (previously tracked in Jira)
 
-## Summary
-Several functional and UI issues were identified, including map inconsistencies, incorrect calculations, and UI layout problems. Core ordering flow remains functional but requires fixes in pricing logic, map rendering, and state persistence.
+## Summary of Results
+- Total test cases: 30
+- Passed: 23
+- Failed: 7
+- Key issues found in:
+  - Map rendering
+  - Order calculation logic
+  - UI consistency on dish details screen
+
+## Outcome
+The application demonstrated stable core ordering functionality, but issues were found in UI rendering and calculation accuracy, indicating areas for improvement before production release.

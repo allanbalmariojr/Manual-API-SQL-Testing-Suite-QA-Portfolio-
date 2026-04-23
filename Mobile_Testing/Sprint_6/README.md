@@ -1,39 +1,42 @@
 # Sprint 6 – Mobile Testing (Urban Lunch App)
 
 ## Overview
-This sprint focused on manual testing of the Urban Lunch Android application using an emulator environment. The goal was to validate core user flows including ordering, pickup point selection, and order tracking.
+This sprint focused on manual testing of the Urban Lunch Android application in an emulator environment. The goal was to validate key user flows such as pickup point selection, meal ordering, and order tracking functionality.
 
 ## Testing Environment
 - Android Studio
-- Pixel 5 Emulator (Android Virtual Device)
-- Android mobile application (Urban Lunch)
+- Android Emulator (Pixel 5 AVD)
+- Urban Lunch Android Application
 
-## Scope
-- Pickup point selection on map
-- Restaurant selection
-- Dish ordering flow
-- Order confirmation and tracking screens
-- Error handling scenarios
+## Scope of Testing
+- Pickup point selection on map interface
+- Restaurant selection functionality
+- Dish ordering flow (add/remove items, quantity handling)
+- Order confirmation process
+- Order tracking screen behavior
+- Basic error handling scenarios
 
 ## Testing Approach
 - Manual functional testing
-- UI validation
+- UI validation against requirements
 - Positive and negative test cases
-- Exploratory testing on key flows
+- Exploratory testing of core user flows
 
 ## Artifacts
 - Test checklist (30 test cases)
-- Test execution results (PASS/FAIL)
-- Bug reports (previously tracked in Jira)
+- Test execution results (PASS/FAIL recorded in checklist)
+- Bug reports (tracked via Jira links in checklist)
 
 ## Summary of Results
-- Total test cases: 30
-- Passed: 24
-- Failed: 6
-- Key issues found in:
-  - Map rendering
-  - Order calculation logic
-  - UI consistency on dish details screen
+- Total test cases executed: 30  
+- Passed: 24  
+- Failed: 6  
+
+### Key Defects Identified
+- Map rendering and pickup point display issues
+- Incorrect order total calculation
+- UI inconsistencies on dish details screen
+- Timing and tracking-related issues on order screen
 
 ## Outcome
-The application demonstrated stable core ordering functionality, but issues were found in UI rendering and calculation accuracy, indicating areas for improvement before production release.
+The Urban Lunch application demonstrated functional core ordering capabilities; however, multiple defects were identified in UI rendering, calculation accuracy, and state handling. These issues indicate that the application requires further stabilization before production readiness.

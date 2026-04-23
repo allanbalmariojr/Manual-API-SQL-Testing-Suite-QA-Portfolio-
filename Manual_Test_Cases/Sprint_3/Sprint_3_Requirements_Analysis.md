@@ -2,7 +2,7 @@
 
 ## Project Overview
 This document breaks down requirements for the Urban Routes application into atomic testable blocks for two features:
-- Carsharing feature (FR-CS32, FR-CS33, FR-CS35)
+- Carsharing feature (FR-CS32, FR-CS33)
 - Aero Taxi feature (FR-AT4, FR-AT6)
 
 ---

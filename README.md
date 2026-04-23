@@ -62,7 +62,7 @@ This project showcases my ability to:
 
 ## 📂 Repository Structure
 
-- `Web_Application_Testing/` → UI test cases and functional testing
+- `Manual_Test_Cases/` → UI test cases and functional testing
 - `API_Testing/` → Postman collections and API validation
 - `SQL_Validation/` → SQL queries and backend checks
 - `Mobile_Testing/` → Mobile test cases and checklists

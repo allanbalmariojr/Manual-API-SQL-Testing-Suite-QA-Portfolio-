@@ -18,9 +18,9 @@ Testing was performed against the provided requirements and UI specifications (F
 
 ## Execution Summary
 - **Total Test Cases:** 30  
-- **Passed:** 25  
-- **Failed:** 5  
-- **Pass Rate:** 83.3%  
+- **Passed:** 24
+- **Failed:** 6 
+- **Pass Rate:** 80%
 
 ---
 

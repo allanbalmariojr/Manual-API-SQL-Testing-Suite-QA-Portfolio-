@@ -38,13 +38,17 @@ Testing was performed against the provided requirements and UI specifications (F
 ---
 
 ## Defects Summary
-The following defects were logged during testing:
 
-- Map does not display pickup points correctly  
-- Incorrect total amount calculation  
-- Cooking timer does not function correctly  
-- Item quantity resets after scrolling  
-- UI overlap issue on dish details screen  
+The following defects were identified and tracked during testing (referenced by Jira IDs for traceability):
+
+- S6P-1 – Incorrect total price calculation  
+- S6P-2 – Cooking timer does not function correctly  
+- S6P-3 – Item quantity does not persist after scrolling  
+- S6P-4 – UI overlap on dish details screen  
+- S6P-5 – Map does not display pickup points correctly  
+- S6P-6 – Pickup point not rendered correctly on map  
+
+These defects reflect issues in pricing logic, UI rendering, state persistence, and map functionality.
 
 ---
 

@@ -28,8 +28,8 @@ This sprint focused on manual testing of the Urban Lunch Android application usi
 
 ## Summary of Results
 - Total test cases: 30
-- Passed: 23
-- Failed: 7
+- Passed: 24
+- Failed: 6
 - Key issues found in:
   - Map rendering
   - Order calculation logic

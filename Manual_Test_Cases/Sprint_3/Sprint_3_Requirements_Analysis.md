@@ -10,38 +10,38 @@ This document breaks down requirements for the Urban Routes application into ato
 ## Feature 1: Carsharing Payments
 
 ### FR-CS32 – Payment method selection
-- User must be able to select a payment method
-- System must display available payment options
-- Selected payment method must be highlighted
+- User must be able to enter card information
+- User must be able to click "Add" to save a card
+- There must be no limit to the number of cards that can be added
 
 ### FR-CS33 – Payment processing
-- System must process payment after confirmation
-- User must receive success confirmation after payment
-- System must reject invalid payment attempts
+- Input fields for card payment must have defined limits
+- System must validate card input fields
+- System must reject invalid input
 
 ---
 
 ## Feature 2: Aero Taxi Booking
 
 ### FR-AT4 – Aero Taxi availability
-- Aero Taxi option must appear under correct conditions
-- System must restrict access if conditions are not met
-- Feature must not be visible when disabled
+- System must calculate total travel time correctly
+- System must calculate total travel cost correctly
 
 ### FR-AT6 – Aero Taxi booking flow
 - User must be able to initiate Aero Taxi booking
 - System must process booking request
-- Confirmation must be displayed after successful booking
+- System must display calculated result (time and cost)
+- Confirmation must be shown after successful booking
 
 ---
 
 ## Atomic Block Summary
 
 ### Carsharing Feature
-- ~8–10 atomic testable conditions identified
+- 13 atomic testable conditions identified
 
 ### Aero Taxi Feature
-- ~6–8 atomic testable conditions identified
+- 4 atomic testable conditions identified
 
 ---
 

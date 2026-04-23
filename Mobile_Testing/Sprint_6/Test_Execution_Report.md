@@ -29,7 +29,7 @@ Testing was performed against the provided requirements and UI specifications (F
 | # | Description | Status |
 |---|------------|--------|
 | 1 | The map shows the order of pickup points  | FAILED |
-| 13 | The total amount contains the price of all prepared dishes and delivery | FAILED |
+| 13 | Total amount includes dishes and delivery cos | FAILED |
 | 19 | Cooking timer is displayed correctly | FAILED |
 | 22 | Item quantity persists after scrolling | FAILED |
 | 24 | Pickup point is shown correctly on map | FAILED |

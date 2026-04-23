@@ -61,8 +61,8 @@ Special focus was placed on:
 
 ## Artifacts
 - Sprint 3 Test Case Spreadsheet (EP/BVA + execution results)
-- Jira bug reports (linked in spreadsheet)
-- DevTools inspection evidence (Network logs where applicable)
+- DevTools (Chrome Network tab used during test execution)
+- Jira bug reports (created during execution, not currently accessible due to account loss)
 
 ---
 

@@ -24,31 +24,37 @@ Testing was performed against the provided requirements and UI specifications (F
 
 ---
 
-## Test Results (Summary View)
+## Test Results Summary
 
 | # | Description | Status |
 |---|------------|--------|
-| 1 | The map shows the order of pickup points  | FAILED |
-| 13 | Total amount includes dishes and delivery cos | FAILED |
-| 19 | Cooking timer is displayed correctly | FAILED |
-| 22 | Item quantity persists after scrolling | FAILED |
-| 24 | Pickup point is shown correctly on map | FAILED |
-| 30 | Dish details screen has no text overlap | FAILED |
+| 1 | The map shows the order of pickup points | FAILED |
+| 2 | No pickup points are selected by default | PASSED |
+| 3 | Pickup point selection and switching works correctly | PASSED |
+| 4 | Restaurant dropdown list is available | PASSED |
+| 5 | Dish ordering flow works correctly | PASSED |
+| 6 | Total amount includes dishes and delivery cost | FAILED |
+| 7 | Cooking timer displays correctly | FAILED |
+| 8 | Item quantity persists after scrolling | FAILED |
+| 9 | Order tracking screen functions correctly | PASSED |
+| 10 | Pickup point is shown correctly on map | FAILED |
+| 11 | Order completion and reset flow works | PASSED |
+| 12 | Error handling for invalid actions works | PASSED |
+| 13 | Dish details screen has no UI overlap | FAILED |
 
 ---
 
 ## Defects Summary
 
-The following defects were identified and tracked during testing (referenced by Jira IDs for traceability):
+The following functional and UI issues were identified during testing:
 
-- S6P-1 – Incorrect total price calculation  
-- S6P-2 – Cooking timer does not function correctly  
-- S6P-3 – Item quantity does not persist after scrolling  
-- S6P-4 – UI overlap on dish details screen  
-- S6P-5 – Map does not display pickup points correctly  
-- S6P-6 – Pickup point not rendered correctly on map  
+- Incorrect rendering of pickup points on the map
+- Incorrect total price calculation during order summary
+- Cooking timer not functioning as expected
+- Item quantity not persisting after scrolling
+- UI overlap issues on the dish details screen
 
-These defects reflect issues in pricing logic, UI rendering, state persistence, and map functionality.
+These issues affect core ordering accuracy, UI consistency, and state management within the application.
 
 ---
 

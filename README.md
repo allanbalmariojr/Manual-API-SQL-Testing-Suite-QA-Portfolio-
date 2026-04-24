@@ -90,6 +90,7 @@ This portfolio highlights practical QA skills including:
 - `Bug_Reports/` → Defect documentation (Jira-style)  
 - `Test_Plans/` → QA strategy and planning  
 - `Test_Checklists/` → Execution checklists  
+- `Python_Automation` → Selenium Automation (Python)
 
 ---
 

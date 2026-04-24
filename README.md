@@ -74,7 +74,7 @@ This portfolio highlights practical QA skills including:
 - Swagger  
 - SQL  
 - Jira (defect tracking format)  
-- Android Emulator (Pixel 5 / Android Studio)  
+- Android Studio
 - Chrome DevTools  
 
 ---

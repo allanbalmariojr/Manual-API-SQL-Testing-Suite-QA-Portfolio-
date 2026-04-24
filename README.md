@@ -1,7 +1,6 @@
 # 🧪 QA Portfolio – Manual, API, SQL & Mobile Testing Suite
 
-This repository showcases my QA testing work across manual testing, API validation, SQL-based backend verification, mobile testing, and end-to-end system testing.  
-It demonstrates structured test design, execution, and defect reporting aligned with real-world QA workflows in Agile environments.
+This repository showcases my QA testing work across manual testing, API validation, SQL-based backend verification, mobile testing, and end-to-end system testing. It demonstrates structured test design, execution, and defect reporting aligned with real-world QA workflows in Agile environments.
 
 ---
 

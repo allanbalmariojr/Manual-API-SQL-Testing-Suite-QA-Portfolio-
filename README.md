@@ -82,15 +82,15 @@ This portfolio highlights practical QA skills including:
 
 # 📁 Repository Structure
 
-- `Manual_Test_Cases/` → UI test cases and execution  
+- `Python_Automation/` → Selenium UI automation framework (Sprint 7–8 implementation and execution)  
 - `API_Testing/` → API validation (Postman collections, reports)  
 - `SQL_Validation/` → SQL queries and database checks  
 - `Mobile_Testing/` → Mobile test checklist and execution  
-- `End_to_End_Testing/` → Cross-layer test scenarios  
+- `End_To_End_Testing/` → Cross-layer test scenarios  
+- `Manual_Test_Cases/` → UI test cases and execution  
+- `Test_Checklists/` → Execution checklists  
 - `Bug_Reports/` → Defect documentation (Jira-style)  
 - `Test_Plans/` → QA strategy and planning  
-- `Test_Checklists/` → Execution checklists  
-- `Python_Automation/` → Selenium UI automation framework (Sprint 7–8 implementation and execution)
 
 ---
 

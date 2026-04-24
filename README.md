@@ -76,6 +76,7 @@ This portfolio highlights practical QA skills including:
 - Jira (defect tracking format)  
 - Android Studio
 - Chrome DevTools  
+- PyCharm
 
 ---
 

@@ -9,7 +9,7 @@ This sprint focused on API testing using Postman and apiDoc. The goal was to val
 
 ## What I Did
 - Analyzed API requirements using apiDoc  
-- Designed and executed ~60 API test cases  
+- Designed and executed 67 API test cases  
 - Applied positive, negative, and boundary testing  
 - Validated status codes and response behavior  
 - Reported defects in Jira  
